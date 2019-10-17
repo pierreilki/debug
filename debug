@@ -1,0 +1,34 @@
+apiVersion: v1
+data:
+  client-ca-file: |
+    -----BEGIN CERTIFICATE-----
+    MIID2TCCAsGgAwIBAgIUPFLeV13LFnnC6yofyBbw8OtG69kwDQYJKoZIhvcNAQEL
+    BQAwSDELMAkGA1UEBhMCRlIxFjAUBgNVBAgTDUlsZS1EZS1GcmFuY2UxDjAMBgNV
+    BAcTBVBhcmlzMREwDwYDVQQDEwhpbGtpbGFiczAeFw0xOTEwMTYxNDMxMDBaFw0y
+    OTEwMTMxNDMxMDBaME0xCzAJBgNVBAYTAkZSMRYwFAYDVQQIEw1JbGUtRGUtRnJh
+    bmNlMQ4wDAYDVQQHEwVQYXJpczEWMBQGA1UEAxMNa3ViZXJuZXRlcy1jYTCCASIw
+    DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANRP+nu5xG2E+0DFlDTXPQquV2K7
+    Jrm89U2/PBqHriE+YaqwkjPiLFxXwgG4ySJatItaqw+xy46li1/BcPaNxPOZIUbb
+    FYyHH/2qq/+VTCxyY/szTSrRS2n8OuT78glW1ZWT5loRpedskadNzBGnKrNLyhgK
+    yVsLAfy/T0BrYs3f8RBntaYZWxIy4XC07ZZDQSkvehrxOoUsdTGxtoTdimLB8JsN
+    7aka+Kw/IBXLuz9inG+2aTJhhdE/u01b/UV5vSMPYh35YCC/sqWV2WUPkyqNi6JM
+    +pAIv1keIKdZJqU4KrtBERcWzGnUepnRMAF/jlwYzQFM3gxEdn3m1eAljUsCAwEA
+    AaOBtTCBsjAOBgNVHQ8BAf8EBAMCAaYwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsG
+    AQUFBwMCMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFCTYxJiq+esUxxQS
+    /MMoDYwoK4PAMB8GA1UdIwQYMBaAFO8UgLsTD/bo+rw0jsp1nbrlYzlmMC0GA1Ud
+    EQQmMCSHBFQnL9uHBAogAAGHBAoUFAiHBAoUFAaHBAoUFAqHBH8AAAEwDQYJKoZI
+    hvcNAQELBQADggEBAJyufgZ6s5uAI+JVaTZMKwJaHYeYhsTivihxqjuKZAMUXRgd
+    JsBs81oje1bF0erN9+TVQvj3RVlCIeIVKksuVkmtAjUjHPgvyivorNGRrd+/QmXG
+    D3nFmZNiY0qlbx9B/WbawTFYRzz7OITyMvub+oxIRjtpXYutHOUVyfzr07HfDTfq
+    M6j2WR2sHjC+JbCRb8pUAL9n6wI0WMdsffuI6ORHHx+zl0dBdLZmD6V+7ri1zb8p
+    PWS2GgAa/ZvHLDKB0HyLcanG721GXy5NyKWCTcwcwmd9koa4PsVcIdq4RG8BntS2
+    LeUAwJb1a2eYnoexj9Z46v9swoAwWH/YPMZRmpo=
+    -----END CERTIFICATE-----
+kind: ConfigMap
+metadata:
+  creationTimestamp: "2019-10-16T14:38:10Z"
+  name: extension-apiserver-authentication
+  namespace: kube-system
+  resourceVersion: "39"
+  selfLink: /api/v1/namespaces/kube-system/configmaps/extension-apiserver-authentication
+  uid: c527f475-53df-48a3-b8ec-65fd1d35db6a
